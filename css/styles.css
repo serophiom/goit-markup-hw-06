@@ -878,10 +878,14 @@ footer .logo {
 .modal-input:focus {
   outline: none;
   border-color: var(--accent-color);
+
+  transition: var(--tansition-hover);
 }
 
 .modal-input:focus + .modal-icon {
   color: var(--accent-color);
+
+  transition: var(--tansition-hover);
 }
 
 .textarea {
@@ -920,6 +924,8 @@ footer .logo {
   background-color: var(--accent-color);
   background-size: contain;
   background-origin: border-box;
+
+  transition: var(--tansition-hover);
 }
 
 .checkbox-text {
